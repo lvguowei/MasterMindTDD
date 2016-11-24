@@ -98,7 +98,7 @@ public class GameEngine {
 
 
         public void rememberScore(String guess, Score score) {
-
+            guessChecker.addScore(guess, score);
         }
     }
 }

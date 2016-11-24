@@ -7,6 +7,7 @@ import com.guowei.lv.gameplay.Score;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class GameEngineTest {
@@ -31,6 +32,15 @@ public class GameEngineTest {
     public void gotItOnFirstGuess() throws Exception {
         runGame(new FirstTryMockConsole());
         assertTrue(console.announcedGameOver());
+    }
+
+    @Test
+    public void gotItOnSecondGuess() throws Exception {
+        runGame(new SecondTryMockConsole());
+        assertTrue(console.announcedGameOver());
+        assertEquals("AAAB", console.getWinningCode());
+        assertEquals(2, console.getTries());
+        assertEquals(1, checker.guessesAdded());
     }
 }
 
@@ -58,6 +68,20 @@ class FirstTryMockConsole extends MockConsole {
     @Override
     public Score scoreGuess(String guess) {
         return new Score(4, 0);
+    }
+}
+
+class SecondTryMockConsole extends MockConsole {
+    boolean guessed = false;
+
+    @Override
+    public Score scoreGuess(String guess) {
+        if (guessed) {
+            return new Score(4, 0);
+        } else {
+            guessed = true;
+            return new Score(0, 0);
+        }
     }
 }
 
@@ -94,5 +118,13 @@ class MockConsole implements Console {
 
     public boolean announcedGameOver() {
         return gameOver;
+    }
+
+    public String getWinningCode() {
+        return winningCode;
+    }
+
+    public int getTries() {
+        return tries;
     }
 }
