@@ -42,6 +42,15 @@ public class GameEngineTest {
         assertEquals(2, console.getTries());
         assertEquals(1, checker.guessesAdded());
     }
+
+    @Test
+    public void neverGetIt() throws Exception {
+        runGame(new NoTriesMockConsole());
+        assertTrue(console.announcedGameOver());
+        assertEquals(GameEngine.MAX_CODES, console.getTries());
+        assertTrue(console.announcedBadScoring());
+        assertEquals(GameEngine.MAX_CODES, checker.guessesAdded());
+    }
 }
 
 class MockGuessChecker implements GuessChecker {
@@ -85,6 +94,13 @@ class SecondTryMockConsole extends MockConsole {
     }
 }
 
+class NoTriesMockConsole extends MockConsole {
+    @Override
+    public Score scoreGuess(String guess) {
+        return new Score(0, 0);
+    }
+}
+
 class MockConsole implements Console {
     private boolean gameOver;
     private String winningCode;
@@ -114,6 +130,10 @@ class MockConsole implements Console {
     @Override
     public void announceBadScoring() {
         badScoring = true;
+    }
+
+    public boolean announcedBadScoring() {
+        return badScoring;
     }
 
     public boolean announcedGameOver() {
