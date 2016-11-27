@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2bc1b6-db5c-41b6-997d-82e95ee16844" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ScorerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/RememberingGuessCheckerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guowei/lv/strategy/Scorer.java" afterPath="$PROJECT_DIR$/src/com/guowei/lv/strategy/Scorer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java" afterPath="$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java" />
     </list>
     <ignored path="master-mind-test-driven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScorerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScorerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ScorerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -68,16 +68,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guowei/lv/gameplay/Score.java">
+      <file leaf-file-name="RememberingGuessCheckerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/RememberingGuessCheckerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="1342">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
               <folding>
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,10 +103,14 @@
       <file leaf-file-name="RememberingGuessChecker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,11 +161,12 @@
         <option value="$PROJECT_DIR$/src/com/guowei/lv/gameplay/Score.java" />
         <option value="$PROJECT_DIR$/src/com/guowei/lv/gameinterface/GameConsole.java" />
         <option value="$PROJECT_DIR$/src/com/guowei/lv/gameplay/GameEngine.java" />
-        <option value="$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java" />
         <option value="$PROJECT_DIR$/src/test/GameEngineTest.java" />
         <option value="$PROJECT_DIR$/src/test/GuesserTest.java" />
         <option value="$PROJECT_DIR$/src/com/guowei/lv/strategy/Scorer.java" />
         <option value="$PROJECT_DIR$/src/test/ScorerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java" />
+        <option value="$PROJECT_DIR$/src/test/RememberingGuessCheckerTest.java" />
       </list>
     </option>
   </component>
@@ -207,82 +209,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GuesserTest.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master-mind-test-driven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -291,9 +218,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Score&#9;FILE&#9;file:///home/lv/Documents/master-mind-test-driven/src/com/guowei/lv/gameplay/Score.java&#10;Console&#9;FILE&#9;file:///home/lv/Documents/master-mind-test-driven/src/com/guowei/lv/gameplay/Console.java" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="JUnit.ScorerTest.inCode">
-    <configuration default="false" name="GuesserTest.whenOnlyOneGuessIsValid_nextGuessIsThatOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RememberingGuessCheckerTest.thereIsOneA">
+    <configuration default="false" name="RememberingGuessCheckerTest.ifThereAreNoAs_onlyGuessesWithAsWillFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -304,8 +232,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.GuesserTest" />
-      <option name="METHOD_NAME" value="whenOnlyOneGuessIsValid_nextGuessIsThatOne" />
+      <option name="MAIN_CLASS_NAME" value="test.RememberingGuessCheckerTest" />
+      <option name="METHOD_NAME" value="ifThereAreNoAs_onlyGuessesWithAsWillFail" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -319,7 +247,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="GuesserTest.makeGuess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RememberingGuessCheckerTest.ifThereAreNoAsOrBs_onlyGuessesWithAsAndBsWillFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -330,8 +258,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.GuesserTest" />
-      <option name="METHOD_NAME" value="makeGuess" />
+      <option name="MAIN_CLASS_NAME" value="test.RememberingGuessCheckerTest" />
+      <option name="METHOD_NAME" value="ifThereAreNoAsOrBs_onlyGuessesWithAsAndBsWillFail" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -345,7 +273,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ScorerTest.withNoMatches_scoreIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RememberingGuessCheckerTest.ifTheresOneInTheRightPosition_thenOnlyThoseThatHaveJustOneInPositionWillPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -356,8 +284,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ScorerTest" />
-      <option name="METHOD_NAME" value="withNoMatches_scoreIsNull" />
+      <option name="MAIN_CLASS_NAME" value="test.RememberingGuessCheckerTest" />
+      <option name="METHOD_NAME" value="ifTheresOneInTheRightPosition_thenOnlyThoseThatHaveJustOneInPositionWillPass" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -371,7 +299,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ScorerTest.inPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RememberingGuessCheckerTest.ifTheresOneOutOfPosition_thenOnlyThoseThatHaveJustOneInAnotherPositionWillPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -382,8 +310,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ScorerTest" />
-      <option name="METHOD_NAME" value="inPosition" />
+      <option name="MAIN_CLASS_NAME" value="test.RememberingGuessCheckerTest" />
+      <option name="METHOD_NAME" value="ifTheresOneOutOfPosition_thenOnlyThoseThatHaveJustOneInAnotherPositionWillPass" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -397,7 +325,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ScorerTest.inCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RememberingGuessCheckerTest.thereIsOneA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -408,8 +336,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ScorerTest" />
-      <option name="METHOD_NAME" value="inCode" />
+      <option name="MAIN_CLASS_NAME" value="test.RememberingGuessCheckerTest" />
+      <option name="METHOD_NAME" value="thereIsOneA" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -659,19 +587,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GuesserTest.whenOnlyOneGuessIsValid_nextGuessIsThatOne" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GuesserTest.makeGuess" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ScorerTest.withNoMatches_scoreIsNull" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ScorerTest.inPosition" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ScorerTest.inCode" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifThereAreNoAs_onlyGuessesWithAsWillFail" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifThereAreNoAsOrBs_onlyGuessesWithAsAndBsWillFail" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifTheresOneInTheRightPosition_thenOnlyThoseThatHaveJustOneInPositionWillPass" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifTheresOneOutOfPosition_thenOnlyThoseThatHaveJustOneInAnotherPositionWillPass" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.thereIsOneA" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ScorerTest.inCode" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ScorerTest.inPosition" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ScorerTest.withNoMatches_scoreIsNull" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GuesserTest.makeGuess" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GuesserTest.whenOnlyOneGuessIsValid_nextGuessIsThatOne" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.thereIsOneA" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifTheresOneOutOfPosition_thenOnlyThoseThatHaveJustOneInAnotherPositionWillPass" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifTheresOneInTheRightPosition_thenOnlyThoseThatHaveJustOneInPositionWillPass" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifThereAreNoAsOrBs_onlyGuessesWithAsAndBsWillFail" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RememberingGuessCheckerTest.ifThereAreNoAs_onlyGuessesWithAsWillFail" />
       </list>
     </recent_temporary>
   </component>
@@ -692,35 +620,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuesserTest_makeGuess - 2016.11.27 at 10h 36m 19s.xml">
-      <configuration name="GuesserTest.makeGuess" configurationId="JUnit" />
+    <history-entry file="RememberingGuessCheckerTest_anyGuessThatDoesNotMatch_willFailAgain - 2016.11.27 at 14h 05m 17s.xml">
+      <configuration name="RememberingGuessCheckerTest.anyGuessThatDoesNotMatch_willFailAgain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuesserTest_whenOnlyOneGuessIsValid_nextGuessIsThatOne - 2016.11.27 at 09h 42m 58s.xml">
-      <configuration name="GuesserTest.whenOnlyOneGuessIsValid_nextGuessIsThatOne" configurationId="JUnit" />
+    <history-entry file="RememberingGuessCheckerTest_ifThereAreNoAsOrBs_onlyGuessesWithAsAndBsWillFail - 2016.11.27 at 14h 09m 12s.xml">
+      <configuration name="RememberingGuessCheckerTest.ifThereAreNoAsOrBs_onlyGuessesWithAsAndBsWillFail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuesserTest_whenOnlyOneGuessIsValid_nextGuessIsThatOne - 2016.11.27 at 09h 44m 10s.xml">
-      <configuration name="GuesserTest.whenOnlyOneGuessIsValid_nextGuessIsThatOne" configurationId="JUnit" />
+    <history-entry file="RememberingGuessCheckerTest_ifThereAreNoAs_onlyGuessesWithAsWillFail - 2016.11.27 at 14h 07m 30s.xml">
+      <configuration name="RememberingGuessCheckerTest.ifThereAreNoAs_onlyGuessesWithAsWillFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RememberingGuessCheckerTest_ifTheresOneInTheRightPosition_thenOnlyThoseThatHaveJustOneInPositionWillPass - 2016.11.27 at 14h 10m 15s.xml">
+      <configuration name="RememberingGuessCheckerTest.ifTheresOneInTheRightPosition_thenOnlyThoseThatHaveJustOneInPositionWillPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RememberingGuessCheckerTest_ifTheresOneOutOfPosition_thenOnlyThoseThatHaveJustOneInAnotherPositionWillPass - 2016.11.27 at 14h 10m 17s.xml">
+      <configuration name="RememberingGuessCheckerTest.ifTheresOneOutOfPosition_thenOnlyThoseThatHaveJustOneInAnotherPositionWillPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RememberingGuessCheckerTest_thereIsOneA - 2016.11.27 at 14h 10m 58s.xml">
+      <configuration name="RememberingGuessCheckerTest.thereIsOneA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RememberingGuessCheckerTest_withNoGuesses_everyGuessPasses - 2016.11.27 at 14h 01m 51s.xml">
+      <configuration name="RememberingGuessCheckerTest.withNoGuesses_everyGuessPasses" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RememberingGuessCheckerTest_withNoGuesses_everyGuessPasses - 2016.11.27 at 14h 02m 38s.xml">
+      <configuration name="RememberingGuessCheckerTest.withNoGuesses_everyGuessPasses" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ScorerTest_inCode - 2016.11.27 at 13h 17m 45s.xml">
       <configuration name="ScorerTest.inCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScorerTest_inPosition - 2016.11.27 at 13h 12m 44s.xml">
-      <configuration name="ScorerTest.inPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScorerTest_inPosition - 2016.11.27 at 13h 13m 02s.xml">
-      <configuration name="ScorerTest.inPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScorerTest_inPosition - 2016.11.27 at 13h 13m 21s.xml">
-      <configuration name="ScorerTest.inPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScorerTest_inPosition - 2016.11.27 at 13h 13m 54s.xml">
-      <configuration name="ScorerTest.inPosition" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ScorerTest_inPosition - 2016.11.27 at 13h 15m 14s.xml">
       <configuration name="ScorerTest.inPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScorerTest_withNoMatches_scoreIsNull - 2016.11.27 at 13h 01m 54s.xml">
-      <configuration name="ScorerTest.withNoMatches_scoreIsNull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -739,7 +667,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1416122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29302832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -829,6 +757,10 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -926,15 +858,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guowei/lv/gameplay/Score.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ScorerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="308">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -955,20 +884,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/guowei/lv/gameplay/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ScorerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/guowei/lv/strategy/RememberingGuessChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="447">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RememberingGuessCheckerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
