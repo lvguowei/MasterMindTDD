@@ -28,6 +28,15 @@ public class GuesserTest {
     }
 
     @Test
+    public void makeGuess() throws Exception {
+        assertEquals("AAAA", GameEngine.Guesser.makeGuess(0));
+        assertEquals("AAAB", GameEngine.Guesser.makeGuess(1));
+        assertEquals("FFFF", GameEngine.Guesser.makeGuess(GameEngine.MAX_CODES - 1));
+        assertNull(GameEngine.Guesser.makeGuess(GameEngine.MAX_CODES));
+        assertNull(GameEngine.Guesser.makeGuess(-1));
+    }
+
+    @Test
     public void whenNoGuessesAreValid_nextGuessIsNil() throws Exception {
         GameEngine.Guesser guesser = new GameEngine.Guesser(failingChecker);
         assertNull(guesser.getNextGuess());
